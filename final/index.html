@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/reset.css" />
+    <link rel="stylesheet" href="/style/fonts.css" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div id="container">
+        <nav id="container-nav">
+          <button class="hamburger" id="hamburger">
+            <img
+              class="hamburger-img"
+              style="height: 20px"
+              src="/images/three-horizontal-lines.png"
+              alt=""
+              srcset=""
+            />
+          </button>
+          <ul class="nav-ul" id="nav-ul">
+            <li><a href="http://127.0.0.1:5500/index.html">Registration</a></li>
+            <li><a href="http://127.0.0.1:5500/uni.html">Universities</a></li>
+            <li><a href="http://127.0.0.1:5500/reviews.html">Reviews</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <form id="reg_form">
+      <h2>Registration Form</h2>
+      <input
+        type="email"
+        class="inp"
+        placeholder="Email"
+        name="email"
+        id="email"
+      />
+      <input
+        type="text"
+        class="inp"
+        placeholder="First Name"
+        name="firtName"
+        id="firstName"
+      />
+      <input
+        type="text"
+        class="inp"
+        placeholder="Last Name"
+        id="lastName"
+        placeholder="lastName"
+      />
+      <input
+        type="password"
+        class="inp"
+        placeholder="Password"
+        name="password"
+        id="password"
+      />
+
+      <input
+        type="password"
+        class="inp"
+        placeholder="Repeat Password"
+        name="repeatPassword"
+        id="repeatPassword"
+      />
+      <button type="submit" class="inp" value="registration" id="reg">
+        Submit
+      </button>
+      <span id="error_span"></span>
+    </form>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
